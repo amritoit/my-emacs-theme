@@ -1,9 +1,25 @@
-# my-emacs-theme
-# How to use it ? put the below lines in .emacs.d/init.el file
+# Emacs Custom Theme Configuration
 
-;;Load my themes in emacs
+Add the directory containing the custom theme to Emacs' theme search path:
+
+```elisp
+(add-to-list 'custom-theme-load-path "~/.emacs.d/my-emacs-theme")
+```
+
+Then load the custom theme automatically when Emacs starts:
+
+```elisp
+;; Load the custom theme automatically on startup.
+;; The `t` skips the theme safety confirmation prompt.
+(load-theme 'amrit-dark-theme t)
+```
+
+### Complete Configuration
+
+```elisp
 (add-to-list 'custom-theme-load-path "~/.emacs.d/my-emacs-theme")
 
-;; Load my default theme at startup
+;; Load the custom theme automatically on startup.
+;; The `t` skips the theme safety confirmation prompt.
 (load-theme 'amrit-dark-theme t)
-
+```
