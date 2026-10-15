@@ -1,3 +1,5 @@
+;;; amrit-dark-theme-theme.el --- Amrit dark theme -*- lexical-binding: t; -*-
+
 (deftheme amrit-dark-theme
   "amrit dark theme")
 

@@ -1,9 +1,11 @@
+;;; amrit-light-theme-theme.el --- Amrit light theme -*- lexical-binding: t; -*-
+
 (deftheme amrit-light-theme
   "Created 2026-10-08.")
 
 (custom-theme-set-faces
  'amrit-light-theme
- '(default ((t (:inherit nil :extend nil :stipple nil :background "snow1" :foreground "#383a42" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight regular :height 120 :width normal :foundry "nil" :family "Firla Code Retina"))))
+ '(default ((t (:inherit nil :extend nil :stipple nil :background "snow1" :foreground "#383a42" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight regular :height 120 :width normal :family "Fira Code Retina"))))
  '(cursor ((t (:background "#4078f2"))))
  '(fixed-pitch ((t (:family "Monospace"))))
  '(variable-pitch ((((type w32)) (:foundry "outline" :family "Arial")) (t (:family "Sans Serif"))))
